@@ -1,4 +1,9 @@
+
+
+
 # 🧠 Tech Challenge - Fase 3 ✅
+
+🎥 [**Apresentação do Projeto**](https://youtu.be/XkXVJ5hAtx4)
 
 Este repositório contém o desenvolvimento do **Tech Challenge - Fase 3**, focado na construção de um pipeline completo de **coleta**, **treinamento** e **previsão** de dados financeiros em tempo real, utilizando **Python**, **MongoDB** e **Machine Learning**.
 
