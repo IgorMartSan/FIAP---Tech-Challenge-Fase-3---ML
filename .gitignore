@@ -6,5 +6,5 @@ graficos
 volumes
 results_darts
 *.tar
-
+*.mp4
 results_reports
