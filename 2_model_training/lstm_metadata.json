@@ -1,0 +1,15 @@
+{
+  "dataset": "dados.csv",
+  "model_type": "LSTM",
+  "input_chunk_length": 24,
+  "output_chunk_length": 1,
+  "hidden_dim": 32,
+  "dropout": 0.2,
+  "n_epochs": 50,
+  "train_start": "2020-10-01 09:00:00",
+  "train_end": "2024-10-01 11:00:00",
+  "forecast_horizon": 24,
+  "mape_val": 96.6927,
+  "train_duration": "0:15:13.114495",
+  "created_at": "2025-10-06 19:45:23"
+}

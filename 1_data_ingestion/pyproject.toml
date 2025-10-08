@@ -1,0 +1,12 @@
+[project]
+name = "1-get-data-module"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "metatrader5>=5.0.5260",
+    "pandas>=2.3.3",
+    "pymongo>=4.15.2",
+    "python-dotenv>=1.1.1",
+]
