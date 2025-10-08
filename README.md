@@ -118,8 +118,7 @@ graph TD
     A[MetaTrader 5] -->|Coleta de dados| B[Módulo de Ingestão]
     B -->|Armazena| C[MongoDB]
     C -->|Consulta histórica| D[Módulo de Treinamento]
-    D -->|Treina e salva modelo| E[Arquivo .pkl]
-    E -->|Carrega modelo| F[Módulo de Predição]
+    D -->|Treina e salva modelo| 
     F -->|Resultados| G[Dashboard / API]
 ```
 
