@@ -115,11 +115,10 @@ tech_challenge_fase3/
 
 ```mermaid
 graph TD
-    A[MetaTrader 5] -->|Coleta de dados| B[Módulo de Ingestão]
-    B -->|Armazena| C[MongoDB]
-    C -->|Consulta histórica| D[Módulo de Treinamento]
-    D -->|Treina e salva modelo| 
-    F -->|Resultados| G[Dashboard / API]
+    A[MetaTrader 5] -->|Coleta de dados em tempo real| B[Módulo de Ingestão]
+    B -->|Armazena dados| C[MongoDB]
+    C -->|Fornece histórico| D[Módulo de Treinamento e Predição]
+    D -->|Treina modelos, faz previsões e gera relatórios| E[Dashboard / API]
 ```
 
 # 📖 Storytelling do Projeto — Tech Challenge Fase 3
